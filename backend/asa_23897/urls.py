@@ -43,9 +43,9 @@ urlpatterns = [
     path("delivery_user_profile/", include("delivery_user_profile.urls")),
 ]
 
-admin.site.site_header = "ASA"
-admin.site.site_title = "ASA Admin Portal"
-admin.site.index_title = "ASA Admin"
+admin.site.site_header = "Delivery"
+admin.site.site_title = "Delivery Admin Portal"
+admin.site.index_title = "Delivery Admin"
 
 # swagger
 api_info = openapi.Info(
